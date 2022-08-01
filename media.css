@@ -1,0 +1,32 @@
+
+/* small resolutions */
+@media screen and (max-width: 768px) {
+
+
+main {
+    padding: 1em;
+}
+
+.container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.advice h1 {
+    font-size: 1.5em;
+}
+
+.divider {
+    background: url(images/pattern-divider-mobile.svg);
+    background-position: center;
+    height: 15px;
+    width: 85%;
+    margin-top: 1em;
+}
+
+}
